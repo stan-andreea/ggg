@@ -1,7 +1,7 @@
 import json
 
 def get_opensky_data():
-    with open("aircraft.json", "r") as f:
+    with open("../aircraft.json", "r") as f:
         r = json.load(f)
 
 
