@@ -13,8 +13,8 @@ def haversine(lat1, lon1, lat2, lon2):
 #Input: data - array, containing:
 # data[0] - longitude
 # data[1] - latitude
-# data[2] - barometric altitude
-# data[3] - geometric altitude
+# data[2] - barometric altitude (meters)
+# data[3] - geometric altitude (meters)
 # Took them in order from https://openskynetwork.github.io/opensky-api/rest.html#all-state-vectors
 def get_nearest_planes_altitudes(airplanes_data):
     nearest_altitudes = sorted(
