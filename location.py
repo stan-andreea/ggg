@@ -14,3 +14,5 @@ LAT_MIN = LAT - 2.0
 LAT_MAX = LAT + 2.0
 LON_MIN = LON - 2.0
 LON_MAX = LON + 2.0
+
+print(LAT, LON)

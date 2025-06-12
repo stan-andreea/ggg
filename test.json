@@ -1,0 +1,32 @@
+{
+  "now": 1718212345.123,
+  "messages": 123456,
+  "aircraft": [
+    {
+      "hex": "abc123",
+      "alt_baro": 11200,
+      "version":0,
+      "lat": 47.4979,
+      "lon": 19.0402,
+      "alt_geom": 11420,
+      "gs": 220
+    },
+    {
+      "hex": "def456",
+      "lat": 47.6,
+      "lon": 19.1,
+      "version":0,
+      "alt_baro": 9500,
+      "alt_geom": null,
+      "gs": 180
+    },
+    {
+      "hex": "ghi789",
+      "lat": null,
+      "lon": 19.2,
+      "alt_baro": 8700,
+      "alt_geom": 8800,
+      "gs": 160
+    }
+  ]
+}
