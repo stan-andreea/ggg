@@ -5,5 +5,5 @@ URL = f"https://opensky-network.org/api/states/all?lamin={LAT_MIN}&lomin={LON_MI
 
 def get_opensky_data():
     r = requests.get(URL).json()
-    airplanes_data = [ [s[5], s[6], s[7], s[13]] for s in r['states'] if s[5] and s[6] and s[13]]
+    airplanes_data = [ [s[5], s[6], s[7], s[9]] for s in r['states'] if s[5] and s[6] and s[7] and s[9] ]
     return airplanes_data

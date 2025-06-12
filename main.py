@@ -5,5 +5,4 @@ from conversion_intf import get_voltages
 
 opensky_data = get_opensky_data()
 voltages = get_voltages(opensky_data)
-print(voltages)
 
